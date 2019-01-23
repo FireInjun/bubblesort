@@ -10,5 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "FireInjun",
+  "repository": {
+    "url": "https://github.com/fireinjun/bubblesort.git"
+  },
   "license": "MIT"
 }
