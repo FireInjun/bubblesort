@@ -4,7 +4,8 @@
   "description": "bubblesort performance benchmarking test",
   "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "tests",
+    "pretty": "prettier --write --tab-width 4 \"src/**/*.js\""
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
