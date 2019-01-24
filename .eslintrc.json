@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "array-element-newline": ["error", "never"],
+    "array-bracket-newline": ["error", "always"],
+    "linebreak-style": 0,
+    "no-plusplus": 0,
+    "no-unused-vars": 0,
+    "no-param-reassign": 0
+  }
+}
