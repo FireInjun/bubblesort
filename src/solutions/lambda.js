@@ -15,3 +15,4 @@ function lambdaBubbleSort(arr) {
   } while (swappedValue);
   return arr;
 }
+module.exports(lambdaBubbleSort);

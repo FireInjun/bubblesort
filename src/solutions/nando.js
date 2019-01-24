@@ -12,3 +12,4 @@ function nandoBubbleSort(arr) {
   }
   return arr;
 }
+module.exports("nandoBubbleSort");

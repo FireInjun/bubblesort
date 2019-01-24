@@ -12,3 +12,4 @@ function venkyBubbleSort(arr) {
   }
   return arr;
 }
+module.exports("venkyBubbleSort");
