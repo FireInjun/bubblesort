@@ -1,2 +1,12 @@
-# Default as LF for all files
-* text eol=lf
+# Default as to bypass system default
+* text=auto
+
+# Specify files as LF
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+# Specify Powershell as CRLF
+*.ps1 text eol=crlf
+
