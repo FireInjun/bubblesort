@@ -26,29 +26,6 @@
     "printWidth": 120,
     "singleQuote": false
   },
-  "eslintConfig": {
-    "env": {
-      "browser": true,
-      "node": true
-    },
-    "extends": [
-      "airbnb", "prettier"
-    ],
-    "plugins": ["prettier"],
-    "rules": {
-      "prettier/prettier": ["error"],
-      "array-element-newline": [
-        "error", "never"
-      ],
-      "array-bracket-newline": [
-        "error", "always"
-      ],
-      "linebreak-style": 0,
-      "no-plusplus": 0,
-      "no-unused-vars": 0,
-      "no-param-reassign": 0
-    }
-  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
