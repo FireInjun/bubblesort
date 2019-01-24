@@ -40,7 +40,10 @@
       "array-element-newline": [
         "error", "never"
       ],
-      "array-bracket-newline": ["error", "always"]
+      "array-bracket-newline": [
+        "error", "always"
+      ],
+      "linebreak-style": 0
     }
   },
   "husky": {
