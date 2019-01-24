@@ -1,4 +1,5 @@
-// Lambda solution
+// lambda.js
+// Lambda School model solution
 function lambdaBubbleSort(arr) {
   let swappedValue;
   do {
