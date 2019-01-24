@@ -9,9 +9,10 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
+    "fixlf": "",
     "lint": "eslint \"src/**/*.js\"",
     "test": "jest",
-    "pretty": "prettier --write --tab-width 4 \"src/**/*.js\"",
+    "pretty": "prettier --write --tab-width 2 \"src/**/*.js\"",
     "start": "node index.js"
   },
   "directories": {
@@ -22,16 +23,24 @@
     "results": "/results"
   },
   "prettier": {
-    "printWidth": 100,
+    "printWidth": 120,
     "singleQuote": false
   },
-  "eslint": {
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    },
     "extends": [
       "airbnb", "prettier"
     ],
     "plugins": ["prettier"],
     "rules": {
-      "prettier/prettier": ["error"]
+      "prettier/prettier": ["error"],
+      "array-element-newline": [
+        "error", "never"
+      ],
+      "array-bracket-newline": ["error", "always"]
     }
   },
   "husky": {
@@ -43,6 +52,7 @@
     "*.js": ["npm run pretty", "git add"]
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "eslint": "^5.3.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.6.0",
